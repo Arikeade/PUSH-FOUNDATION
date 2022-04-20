@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", "sans-serif";
+  }
+  
+  body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #342f2c;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  #heading {
+   background-color: #fff;
+   width: 100%;
+   margin: auto;
+  
+  }
+
+  header {
+    width: 90%;
+    margin: auto;
+ }
+
+ .nav-button {
+    background: #fa8000;
+    font-size: 20px;
+    padding: 13px 23px;
+    border: 0;
+    border-radius: 102px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Volunteers */
+
+.h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+    letter-spacing: 4px;
+  
+  }
+
+  .p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #37322F;
+  }
+
+  input {
+    width: 520px;
+    height: 46px;   
+    background: #D0E8ED;
+    border: none;
+    margin: 5px 0px;
+    padding: 10px;
+  }
+
+  textarea{
+    background: #D0E8ED;
+    resize: none;
+    border: none;
+    margin: 5px; 
+    color: rgba(55, 50, 47, 0.4);
+    
+
+  }
