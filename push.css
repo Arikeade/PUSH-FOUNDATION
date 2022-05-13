@@ -10,18 +10,18 @@ body {
   color: #342f2c;
   font-weight: 400;
   font-size: 20px;
-  background: #E3E9E7;
+  
 }
 
 #heading {
- background-color: #fff;
- width: 100%;
-
+  background-color: #fff;
+  width: 100%;
+  margin: auto;
 }
 
 header {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
 .nav-button {
   background: #fa8000;
@@ -32,12 +32,17 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-li {
-  margin-top: 30px;
-}
+
 
 .nav-link {
   color: black;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.nav-item {
+  padding-top: 20px;
 }
 
 
@@ -45,36 +50,34 @@ li {
 /*INITIATIVE CSS  */
 
 h3 {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 102px;
-    width: 326px;
-    height: 68px;
-    font-size: 48px;
-    color: #0045AC;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: auto;
-    background-color: #fff;   
-    
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 102px;
+  width: 326px;
+  height: 68px;
+  font-size: 48px;
+  color: #0045ac;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  background-color: #fff;
 }
 
 .mycol2 {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .mycol3 {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
-p{
-    font-size: 24px;
+p {
+  font-size: 24px;
 }
 
 h2 {
-    font-size: 36px;
-    color: #37322F;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 36px;
+  color: #37322f;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 
 /*contact page */
 
@@ -82,7 +85,7 @@ input {
   width: 792px;
   height: 78px;
   left: 127px;
-  background: #FAFEFF;
+  background: #fafeff;
   margin: 6px;
   border: none;
   padding: 20px;
@@ -92,23 +95,22 @@ input {
   font: Roboto Weight 400, Regular;
   font-size: 24px;
   color: rgba(55, 50, 47, 0.4);
-
 }
 
-textarea{
+textarea {
   width: 792px;
-  background: #FAFEFF;
+  background: #fafeff;
   resize: none;
   border: none;
   font: Roboto Weight 400, Regular;
   font-size: 24px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: rgba(55, 50, 47, 0.4);
-  margin: 6px; 
+  margin: 6px;
 }
 
 h4 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 40px;
   color: #000;
@@ -116,7 +118,7 @@ h4 {
 }
 
 .getintouch {
-  font-family: 'Rhodium Libre';
+  font-family: "Rhodium Libre";
   font-weight: 400;
   font-size: 32px;
   text-align: center;
@@ -127,18 +129,18 @@ h4 {
 .join {
   width: 261px;
   height: 59px;
-  background: #FAFEFF;
+  background: #fafeff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 102px;
   border: none;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 24px;
   color: rgba(55, 50, 47, 0.5);
 }
 
 .available {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 36px;
   color: rgba(0, 0, 0, 0.7);
@@ -146,7 +148,7 @@ h4 {
 }
 
 .number {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 128px;
   text-align: center;
@@ -155,20 +157,90 @@ h4 {
 }
 
 .contact {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 800;
   font-size: 32px;
   color: rgba(0, 0, 0, 0.5);
-
 }
 
 .connect {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 800;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
 
+/*gallery */
 
+h5 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 102px;
+  width: 250px;
+  height: 80px;
+  font-size: 64px;
+  color: #0045ac;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  background-color: #fff;
+  font-family: "Roboto";
+  font-weight: 800;
+}
 
+/* push team */ 
 
+.profile {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 24px;
+  color: #342F2C;
+line-height: 28px;
+}
+
+.bio {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #342F2C;
+  text-align: left;
+}
+
+.heady {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  color: #342F2D;
+ margin-bottom: 20px;
+
+}
+
+.reach {
+  font-family: 'Rhodium Libre';
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 109px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.available {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.5);
+
+}
+
+.no {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+
+}

@@ -1,76 +1,193 @@
 * {
-    box-sizing: border-box;
-    font-family: "Roboto", "sans-serif";
-  }
-  
-  body {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    color: #342f2c;
-    font-weight: 400;
-    font-size: 20px;
-  }
-  
-  #heading {
-   background-color: #fff;
-   width: 100%;
-   margin: auto;
-  
-  }
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+}
 
-  header {
-    width: 90%;
-    margin: auto;
- }
+body {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #342f2c;
+  font-weight: 400;
+  font-size: 20px;
+}
 
- .nav-button {
-    background: #fa8000;
-    font-size: 20px;
-    padding: 13px 23px;
-    border: 0;
-    border-radius: 102px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
+#heading {
+  background-color: #fff;
+  width: 100%;
+  margin: auto;
+}
 
-  /* Volunteers */
+header {
+  width: 90%;
+  margin: auto;
+}
+
+.nav-button {
+  background: #fa8000;
+  font-size: 20px;
+  padding: 13px 23px;
+  border: 0;
+  border-radius: 102px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.nav-item {
+  padding-top: 20px;
+}
+/* Volunteers */
 
 .h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 75px;
-    color: #000000;
-    letter-spacing: 4px;
-  
-  }
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 75px;
+  color: #000000;
+  letter-spacing: 4px;
+}
 
-  .p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #37322F;
-  }
+.p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #37322f;
+}
 
-  input {
-    width: 520px;
-    height: 46px;   
-    background: #D0E8ED;
-    border: none;
-    margin: 5px 0px;
-    padding: 10px;
-  }
+input {
+  width: 550px;
+  height: 46px;
+  background: #d0e8ed;
+  margin: 6px;
+  border: none;
+  padding: 20px;
+}
 
-  textarea{
-    background: #D0E8ED;
-    resize: none;
-    border: none;
-    margin: 5px; 
-    color: rgba(55, 50, 47, 0.4);
-    
+.partner {
+  width: 267px;
+  height: 46px;
+  background: #d0e8ed;
+  border: none;
+  margin: 6px;
+ padding: 20px;
+}
 
-  }
+textarea {
+  background: #d0e8ed;
+  resize: none;
+  border: none;
+  margin: 5px;
+  color: rgba(55, 50, 47, 0.4);
+  font-size: 24px;
+  width: 550px;
+}
+
+.joinus {
+  padding: 5px 70px;
+  background: #fa8000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 102px;
+  font-size: 35px;
+  color: #fff;
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 36px;
+  border: none;
+}
+
+.volunteer {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(55, 50, 47, 0.8);
+}
+
+::placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(55, 50, 47, 0.4);
+}
+
+.join {
+  background: #d0e8ed;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 102px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(55, 50, 47, 0.5);
+  border: none;
+  padding: 2px 30px;
+}
+
+.form {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.quote {
+  font-family: 'Rhodium Libre';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 55px;
+  text-align: center;
+  color: #000000;
+}
+
+.pay {
+  background: #D0E8ED;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 102px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: rgba(55, 50, 47, 0.5);
+  padding: 10px 25px;
+  border: none;
+  margin-top: 10px;
+}
+
+.input {
+  width: 650px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px; 
+  height: 64px;
+  color: rgba(55, 50, 47, 0.4);
+  background: rgba(254, 254, 254, 0.5);
+}
+
+
+.paystack-footer {
+  width: 300px;
+  max-width: 100%;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 40px auto;
+  text-align: center;
+  opacity: 1;
+  clear: both;
+
+}
+.paystack-footer img {
+  width: 200px;
+}
+

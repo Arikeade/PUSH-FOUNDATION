@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a website for PUSH FOUNDATION." />
+
+    <title>PUSH FOUNDATION</title>
+
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="images/png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="foundation.css" />
+  </head>
+    <body style="background-image: url(./images/close-up-hand-putting-money-donation-box-charity-financial-support-saving-concept-243911808.jpg); background-repeat: no-repeat; background-size: cover; ">
+        <div id="heading">
+        <header>
+            <ul class="nav nav-fill">
+            <a href="index.html">
+                <img src="images/PUSH Logo edited 1.png" alt="logo" />
+            </a>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pushteam.html">PUSH Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="volunteers.html">Volunteers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <button class="nav-button">
+                <a href="donate.html" style="text-decoration: none; color: #fff"
+                    >DONATE</a
+                >
+                </button>
+            </li>
+            </ul>
+        </header>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-7" style="padding-top: 120px;">
+                    <p class="form">Donate to PUSH Foundation</p>
+                    <form id="paymentForm" method="post">
+                        <div class="form-group">
+                            <label for="fullname"></label>
+                            <input type="text" id="name" required placeholder="Full Name" / class="input">
+                        </div>
+                        <div class="form-group">
+                            <label for="phonenumber"></label>
+                            <input type="number" id="phone" required placeholder="Phone Number" / class="input">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"></label>
+                            <input type="email" id="email" required placeholder="Email" / class="input"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="amount"></label>
+                            <input class="input" type="number" id="amountv" required placeholder="Amount (NGN)"
+                            class="form-control"/>
+                        </div>
+                      <div class="form-submit">
+                         <button type="submit" onclick="payWithPaystack()" class="pay"> Pay Now </button>
+                      </div>
+                    </form>
+                    <div class="row" style="padding-top: 35px; padding-bottom: 50px;">
+                        
+                        <div class="col" style="margin-top: -10px;">
+                            <img src="images/mastercard-logo2-removebg-preview.png" alt="icon">
+                        </div>
+                        <div class="col" style="padding-right: 50px;">
+                            <img src="images/Vector (5).png" alt="icon">
+                        </div>
+                        <div class="col" style="padding-right: 120px;">
+                            <img src="images/Vector (6).png" alt="icon">
+                        </div>
+                        <div class="col" style="margin-left: -50px;">
+                            <img src="images/Vector (7).png" alt="icon">
+                        </div>
+                        <div class="col">
+                            <img src="images/Verve 1.png" alt="icon">
+                        </div>   
+                        
+                    </div>
+                </div>
+                <div class="col-5" style="padding-top: 300px;">
+                    <p class="quote">“No one has ever <br> become poor by giving.” <br> – Anne Frank. </p>
+                </div>
+            </div>
+            <div id="paystack-footer" class="paystack-footer animated fadeIn">
+                <a target="_blank" href="https://paystack.com/what-is-paystack">
+                <img
+                    alt="Paystack secured badge"
+                    src="https://paystack.com/assets/payment/img/paystack-badge-cards.png"/>
+                </a>
+            </div>
+        </div>
+
+      
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="https://js.paystack.co/v1/inline.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+</html>

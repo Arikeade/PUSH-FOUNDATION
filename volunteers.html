@@ -44,7 +44,7 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="pushteam.html">PUSH Team</a>
@@ -60,7 +60,7 @@
           </li>
           <li class="nav-item">
             <button class="nav-button">
-              <a href="index.html" style="text-decoration: none; color: #fff"
+              <a href="donate.html" style="text-decoration: none; color: #fff"
                 >DONATE</a
               >
             </button>
@@ -147,15 +147,15 @@
       </div>
     </div>
 
-    <div class="container">
-      <button>
+    <div class="container" style="margin-bottom: 20px">
+      <button class="joinus">
         JOIN US
         <i class="bi bi-arrow-down"></i>
       </button>
 
       <div class="row">
         <div class="col">
-          <p>AS A VOLUNTEER</p>
+          <p class="volunteer">AS A VOLUNTEER</p>
 
           <div>
             <input type="text" id="name" placeholder="Name" /> <br />
@@ -164,21 +164,35 @@
             <textarea id="message" rows="3" cols="50">  Message</textarea>
             <br />
           </div>
-          <button type="button" class="join">Join Now</button>
+          <a href="thank.html">
+            <button type="button" class="join">Join Now</button>
+          </a>
         </div>
         <div class="col">
-          <p>AS A PARTNER</p>
+          <p class="volunteer">AS A PARTNER</p>
 
           <div>
             <input type="text" id="name" placeholder="Name" /> <br />
-            <input type="number" id="phone" placeholder="Phone Number" /><br />
-            <input type="email" id="email" placeholder="Email" /> <br />
-            <textarea id="message" rows="3" cols="50">
-  Message (indicate payment frequency-one off, monthly, quarterly, yearly)</textarea
-            >
+            <input
+              type="number"
+              id="phone"
+              placeholder="Phone Number"
+              class="partner"
+            />
+            <input
+              type="number"
+              id="amount"
+              placeholder="Amount #"
+              class="partner"
+            />
             <br />
+            <input type="email" id="email" placeholder="Email" /> <br />
+            <textarea id="message" rows="3" cols="50">  Message (indicate payment frequency-one off, monthly, quarterly, yearly)
+            </textarea><br />
           </div>
-          <button type="button" class="join">Join Now</button>
+          <a href="thank.html">
+            <button type="button" class="join">Join Now</button>
+          </a>
         </div>
       </div>
     </div>
