@@ -584,13 +584,7 @@ hr {
 @media (min-width: 769px) and (max-width: 1024px) {
 
   body {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll; 
-  }
-
-  body::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
+    overflow-x: hidden;
   }
 
   .dropbtn {
@@ -634,13 +628,6 @@ hr {
    font-size: 25px; 
   }
 
- .fist {
-    background: #e5e5e5;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center; 
-  }
-
   h1 {
     font-size: 64px;
     line-height: 75px;
@@ -648,6 +635,19 @@ hr {
     color: #000;
     text-align: center;
     height: 225px;
+    width: 100%;
+    margin: 0;
+    padding: 0px 20px;
+  }
+
+  .h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .touching {
+    margin-top: -50px;
+    text-align: center;
   }
 
   .leet {
@@ -656,9 +656,12 @@ hr {
 
   #second-section {
     display: block;
-    width: 50%;
+    width: 100%;
     margin: auto;
+    text-align: center;
   }
+
+  
 
   .horizontal-line {
     display: none;
@@ -736,6 +739,14 @@ display: block;
   font-size: 40px;
 }
 
+.container{
+  display: block;
+  background: #e5e5e5;
+  width:100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  height: 28em;
+}
 }
 
 
@@ -789,13 +800,16 @@ display: block;
       visibility: visible;
       font-size: 25px; 
     }
+
+    .touching {
+      margin-top: -50px;
+    }
   
   .fist {
       background: #e5e5e5;
       width: 100%;
       margin: 0 auto;
       text-align: center;
-      padding-left: 70px;
     }
 
     .subset {
@@ -824,7 +838,6 @@ display: block;
       text-decoration-line: underline;
       color: #000;
       text-align: center;
-      margin-bottom: -80px;
     }
 
     .front {
@@ -904,9 +917,8 @@ display: block;
       margin: auto; 
     }
 
-    .connect {
-      font-size: 20px;
-      width: 100%;
+    .connect p {
+      font-size: 15px;
     }
     
     .fa-brands:hover {
