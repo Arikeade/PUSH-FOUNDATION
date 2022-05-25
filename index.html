@@ -48,7 +48,7 @@
           <div>
             <img src="images/Rectangle 9.png" alt="" />
           </div>
-          <div>
+          <div class="respo">
             <img src="images/Rectangle 10.png" alt="img" />
           </div>
         </div>
@@ -154,7 +154,7 @@
         <div class="col-4 tit">
           <button class="getin-button">Get In Touch <img src="images/Arrow 2.png" alt="img"></button>
           <div class="wrapper">
-            <form action="form.php" method="post" class="form" id="contact-form"> 
+            <form action="" method="post" class="form" > 
               <label for="name">
                 <input type="text" name="name" id="username" name="username" required placeholder="Name">
              </label> 
@@ -164,10 +164,6 @@
              <label for="message">
                <input type="text" name="message" required placeholder="Message">
              </label>
-             <div>
-              <p class="success"> <?php echo $success; ?></p>
-              <p class="failed"> <?php echo $failed; ?> </p>
-            </div>
               <button type="submit" data-submit="...Sending" class="submit">Send Now</button>
             </form>
           </div>
