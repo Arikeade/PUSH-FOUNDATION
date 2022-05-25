@@ -1,21 +1,14 @@
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  
 }
 
 body {
   width: 100%;
-  margin: auto;
+  margin:0 auto;
   text-align: center;
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll; 
-  }
-
-  body::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-  }
-  
+  }  
   
 header {
   display: flex;
@@ -584,41 +577,267 @@ hr {
 }
 
 
+@media only screen and (max-width: 600px) {
+  body {
+    
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+    }
+  
+    body::-webkit-scrollbar {
+      display: none; /* for Chrome, Safari, and Opera */
+    }
+
+    .dropbtn {
+      background-color: #fa8000;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #2980B9;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
+    
+   span {
+     visibility: visible;
+     font-size: 25px; 
+    }
+
+    .dropbtn {
+      background-color: #3498DB;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #fa8000;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
+  
+    span {
+      visibility: visible;
+      font-size: 25px; 
+     }
+   
+   .fist {
+      background: #e5e5e5;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      padding-left: 70px;
+    }
+
+    h1 {
+      font-size: 44px;
+      line-height: 75px;
+      text-decoration-line: underline;
+      color: #000;
+      text-align: center;
+      height: 225px;
+      margin-left: -85px;
+    }
+  
+   .leet {
+     display: none;
+   }
+  
+    .front {
+      display: none;
+    }
+  
+    .back {
+      margin-top: 20px;
+    }
+  
+    .feet {
+      display: block;
+      width: 80%;
+      margin: auto;
+    }
+  
+    .getin-button {
+      background: #fa8000;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 102px;
+      width: 281px;
+      height: 40px;
+      font-size: 30px;
+      color: #fff;
+      border: 0;
+      margin-bottom: 15px;
+      margin-top: 40px;
+      margin-left: 140px;
+    }
+  
+    .wrapper {
+      padding-left: 30px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+  
+    .submit {
+      background: #fa8000;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 102px;
+      width: 111px;
+      height: 40px;
+      font-size: 20px;
+      color: #fff;
+      border: 0;
+      padding: 0px 10px;  
+      margin-left: 8em;
+      margin-top: 10px;
+    }
+  
+    .fit {
+      width: 80%;
+      margin: auto;
+      padding-bottom: 50px;
+    }
+  
+    .fot {
+      width: 80%;
+      margin: auto; 
+    }
+  
+    .connect {
+      font-size: 20px;
+      width: 100%;
+    }
+    
+    .fa-brands:hover {
+      color: #fa8000;  
+    } 
+  
+    .hot {
+      width: 100%; 
+      margin: auto;
+    }
+  
+    .tit {
+      margin-bottom: -20px;
+    }
+  
+  
+   
+  }
+
+
+
+
+
 @media (min-width: 769px) and (max-width: 1024px) {
+
+  body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+  }
+
+  body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+  .dropbtn {
+    background-color: #fa8000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
   .dropdown-content {
     display: none;
     position: absolute;
-    right: 40px;
-    background-color: #f9f9f9;
-    min-width: 220px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 8px 16px;
     z-index: 1;
   }
-
-  .dropdown {
-     display: inline-block;
-     margin-top: 25px;
-  }
-
- span {
-   visibility: visible;
-   font-size: 25px; 
-  }
-
- .dropdown:hover .dropdown-content {
-   display: block;
-  }
-
- .dropdown-content a {
+  
+  .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-
- .dropdown-content a:hover {
-   background-color: #f1f1f1;
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+ span {
+   visibility: visible;
+   font-size: 25px; 
   }
 
  .fist {
@@ -682,70 +901,95 @@ td {
   font-family: "Roboto";
   color: #0045ac;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 25px;
+  line-height: 45px;
 }
 
 input[type],
 select {
-  padding: 7px 15px;
-  margin: 6px 0;
   display: inline-block;
   border: 0;
   width: 370px;
-  height: 40px;
-  background: #D0E8ED;
+  margin: 10px;
 }
 
-.hit{
-  width: 300px;
+.connect {
+  font-size: 15px;
+}
+
+.fa-brands:hover {
+  color: #fa8000;
+  
+} 
+
+::placeholder {
+  font-size: 18px;
+}
+
+.grid {
+display: block;
+}
+
+.fit {
+  width: 350px;
+}
+
+.hide {
+  display: none;
 }
 
 .outreach-head{
-  font-size: 28px;
+  font-size: 40px;
 }
 
 }
 
-@media (min-width: 300px) and (max-width: 768px){
-   
+@media (min-width: 601px) and (max-width: 768px){
+
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #fa8000;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
   .dropdown-content {
     display: none;
     position: absolute;
-    right: 40px;
-    background-color: #f9f9f9;
-    min-width: 220px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 8px 16px;
     z-index: 1;
   }
-
-  .dropdown {
-     display: inline-block;
-     margin-top: 25px;
-  }
-
- span {
-   visibility: visible;
-   font-size: 25px; 
-  }
-
- .dropdown:hover .dropdown-content {
-   display: block;
-  }
-
- .dropdown-content a {
+  
+  .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
 
- .dropdown-content a:hover {
-   background-color: #f1f1f1;
-   
-  }
-
+  span {
+    visibility: visible;
+    font-size: 25px; 
+   }
+ 
  .fist {
     background: #e5e5e5;
     width: 100%;
@@ -760,7 +1004,7 @@ select {
  }
 
  h1 {
-    font-size: 54px;
+    font-size: 64px;
    
     text-decoration-line: underline;
     color: #000;
@@ -815,15 +1059,6 @@ select {
     margin-top: 10px;
   }
 
-  .connect {
-    font-family: "Roboto";
-    font-weight: 800;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.5);
-    margin-right: 12em;  
-    margin-top: -15px; 
-  }
-
   .fit {
     width: 80%;
     margin: auto;
@@ -832,14 +1067,17 @@ select {
 
   .fot {
     width: 80%;
-    margin: auto;
-    
+    margin: auto; 
   }
 
-  .hit {
-    width: 100%; 
-   
+  .connect {
+    font-size: 20px;
+    width: 100%;
   }
+  
+  .fa-brands:hover {
+    color: #fa8000;  
+  } 
 
   .hot {
     width: 100%; 

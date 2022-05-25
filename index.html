@@ -18,8 +18,8 @@
         <img src="images/PUSH Logo edited 1.png" alt="push-logo"
       /></a>
       <div class="dropdown">
-        <span><i class="fa-solid fa-bars"></i></span>
-        <nav class="dropdown-content"> 
+       <span><button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-bars"></i></button> </span>
+        <nav id="myDropdown" class="dropdown-content">
           <a href="index.html" class="nav">Home</a>
           <a href="about.html" class="nav">About Us</a>
           <a href="pushteam.html" class="nav">PUSH Team</a>
@@ -27,9 +27,7 @@
           <a href="gallery.html" class="nav">Gallery</a>
           <a href="contact.html" class="nav">Contact</a>
           <button class="nav-button">
-            <a href="donate.html" style="text-decoration: none; color: #fff"
-              >DONATE</a
-            >
+            <a href="donate.html" style="text-decoration: none; color: #fff">DONATE</a>
           </button>
         </nav>
       </div>
@@ -182,7 +180,7 @@
           </div>
           <div class="grid">
             <div><img src="images/Rectangle 24.png" alt="picture"></div>
-            <div><img src="images/Rectangle 25.png" alt="picture"></div>
+            <div class="hide"><img src="images/Rectangle 25.png" alt="picture"></div>
           </div>
           <div class="connect">
             <p> Connect with us
@@ -219,5 +217,6 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
         <script src="script.js"></script>
         <script src="form.js"></script>
+        <script src="dropdown.js"></script>
   </body>
 </html>
