@@ -740,10 +740,12 @@ display: block;
 
 
 
-@media (min-width: 300px) and (max-width: 768px){
+@media only screen and (max-width: 480px){
 
   body {
     overflow-x: hidden;
+    width: 100%;
+    margin: 0;
   }
 
     .dropbtn {
@@ -758,6 +760,7 @@ display: block;
     .dropdown {
       position: relative;
       display: inline-block;
+      margin-top: 15px;
     }
     
     .dropdown-content {
@@ -803,6 +806,12 @@ display: block;
       display: none;
     }
 
+    .h3 {
+      width: 100%;
+      margin: 0;
+      font-size: 25px;
+    }
+
   .leet {
     display: none;
   }
@@ -810,10 +819,12 @@ display: block;
 
   h1 {
       font-size: 44px;
-      margin-left: -80px;
+      margin: 0;
+      width: 100%;
       text-decoration-line: underline;
       color: #000;
       text-align: center;
+      margin-bottom: -80px;
     }
 
     .front {
@@ -847,8 +858,6 @@ display: block;
       border: 0;
       margin-bottom: 15px;
       margin: 30px 0px 0px 100px;
-    
-    
     }
 
     .wrapper {
