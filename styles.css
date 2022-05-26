@@ -13,7 +13,7 @@ body {
 header {
   display: flex;
   justify-content: space-around;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
@@ -351,6 +351,8 @@ td {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
   padding: 0px 15px;
+  margin-top: -30px;
+  
 }
 
 h2 {
@@ -379,7 +381,10 @@ h3 {
   flex-direction: row;
   background: #fa8000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 250px;
+  width: 522px;
+  height: 229px;
+  left: 134px;
+  top: 795px;
 }
 
 .mission {
@@ -528,6 +533,7 @@ hr {
   width: 85%; 
   margin: auto;
   align-items: center;
+ 
 }
 
 .fot {
@@ -751,7 +757,7 @@ display: block;
 
 
 
-@media (min-width: 320px) and (max-width: 480px){
+@media (min-width: 300px) and (max-width: 480px){
 
   body {
     overflow-x: hidden;
@@ -844,7 +850,8 @@ display: block;
       text-decoration-line: underline;
       color: #000;
       text-align: center;
-      margin-bottom: -40px;
+      margin-bottom: -20px;
+
     }
 
     .front {
@@ -950,6 +957,11 @@ display: block;
 
 
     /* About Us page */
+
+    .abt {
+      font-size: 35px;
+    }
+
   .style {
     display: block;
     align-items: center;
@@ -967,17 +979,45 @@ display: block;
     display: none;
   }
 
-  .fix {
-    margin-top: -30px;
-  }
-
   .set{
     margin-top: -60px;
     margin-bottom: 20px;
+    width: 300px;
+   text-align: center;
   }
 
   .footer-header {
     display: block;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer {
+    width: 400px;
+    margin: auto;   
+  }
+
+ .vision {
+    font-size: 15px;
+  }
+
+  .mission{
+    font-size: 20px;
+  }
+
+  .word {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .hot {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #vertical-line {
+height: 210px;
   }
 }
