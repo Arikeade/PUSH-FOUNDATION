@@ -542,6 +542,13 @@ hr {
     margin-right: 20px;
 }
 
+.nav.active {
+  background-color: #fa8000;
+  border-radius: 40px;
+  padding: 10px 25px;
+  color: #fff;
+}
+
 
 
 
