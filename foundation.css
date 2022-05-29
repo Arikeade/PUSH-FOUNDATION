@@ -44,6 +44,17 @@ header {
 }
 /* Volunteers */
 
+.dropdown{
+  display: none;
+}
+
+.nav-link.active {
+  background-color: #fa8000;
+  border-radius: 40px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
 .h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -111,6 +122,7 @@ textarea {
   font-size: 24px;
   color: rgba(55, 50, 47, 0.8);
 }
+
 
 ::placeholder {
   font-family: "Roboto";
@@ -191,3 +203,66 @@ textarea {
   width: 200px;
 }
 
+
+@media (min-width: 300px) and (max-width: 480px){
+  
+  .dropdown {
+    display: flex;
+    flex-direction: row;
+  }
+
+.nav-fill {
+    display: none;
+  }
+
+
+.btn  {
+  background-color: #fa8000;
+  margin-top: 20px;
+  height: 40px;
+  border: 0;
+ }
+
+ .p {
+   font-size: 17px;
+ }
+
+ .h2{
+   font-size: 40px;
+ }
+
+ .joinus{
+   font-size: 20px;
+   padding: 5px 30px;
+ }
+
+ .volunteer {
+   font-size: 17px;
+   padding-top: 10px;
+ }
+
+ .raw {
+   display: block;
+ }
+
+ .cal {
+   display: none;
+ }
+
+ ::placeholder {
+  font-size: 18px;
+  }
+
+  input {
+    width: 300px; 
+    height: 44px;
+  }
+  
+  textarea {
+    margin: 5px;
+    font-size: 18px;
+    width: 300px;
+  }
+  
+  
+}
