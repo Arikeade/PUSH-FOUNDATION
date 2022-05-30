@@ -187,6 +187,12 @@ textarea {
   background: rgba(254, 254, 254, 0.5);
 }
 
+.bod {
+  background-image: url(./images/close-up-hand-putting-money-donation-box-charity-financial-support-saving-concept-243911808.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
 
 .paystack-footer {
   width: 300px;
@@ -263,6 +269,17 @@ textarea {
     font-size: 18px;
     width: 300px;
   }
+
+  .bod {
+    background-image: url(./images/donate_heart_button__2.png); 
+    background-repeat: repeat; 
+    background-size: contain; 
+  }
   
+  .raw {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
   
 }
