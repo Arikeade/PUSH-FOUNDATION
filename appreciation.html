@@ -11,30 +11,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6aa6203c9c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
+    <script
+			src="https://kit.fontawesome.com/6aa6203c9c.js"
+			crossorigin="anonymous"
+		></script>
   </head>
+
   <body>
-        <header>
-        <a href="index.html">
-            <img src="images/PUSH Logo edited 1.png" alt="push-logo"
-        /></a>
-        <nav>
-            <a href="index.html" class="nav">Home</a>
-            <a href="about.html" class="nav">About Us</a>
-            <a href="pushteam.html" class="nav">PUSH Team</a>
-            <a href="volunteers.html" class="nav">Volunteers</a>
-            <a href="gallery.html" class="nav">Gallery</a>
-            <a href="contact.html" class="nav">Contact</a>
-            <button class="nav-button">
-            <a href="donate.html" style="text-decoration: none; color: #fff"
-                >DONATE</a
-            >
-            </button>
-        </nav>
-        </header>
-        <div style="background-image: url(./images/istockphoto-1072942800-612x612.jpg); background-repeat: no-repeat; background-size: cover; height: 700px; margin-top: -40px;">
-          <p style="font-family: 'Rhodium Libre'; font-style: normal; font-weight: 400; font-size: 58px; line-height: 82px; text-align: center; padding-top: 6em;color: rgb(14, 14, 69); padding-left: 350px;">
+    <header>
+			<a href="index.html">
+				<img src="images/PUSH Logo edited 1.png" alt="push-logo"
+			/></a>
+			<div class="dropdown">
+				<span
+					><button onclick="myFunction()" class="dropbtn">
+						<i class="fa-solid fa-bars"></i>
+					</button>
+				</span>
+				<nav id="myDropdown" class="dropdown-content">
+					<a href="index.html" class="nav active">Home</a>
+					<a href="about.html" class="nav">About Us</a>
+					<a href="pushteam.html" class="nav">PUSH Team</a>
+					<a href="volunteers.html" class="nav">Volunteers</a>
+					<a href="gallery.html" class="nav">Gallery</a>
+					<a href="contact.html" class="nav">Contact</a>
+					<button class="nav-button">
+						<a href="donate.html" style="text-decoration: none; color: #fff"
+							>DONATE</a
+						>
+					</button>
+				</nav>
+			</div>
+		</header>
+        <div class="appreciate">
+          <p class="thankyou">
             Thank you for <br> donating.</p>
         </div>
 
+		<script src="script.js"></script>
+		<script src="dropdown.js"></script>
   </body>
 </html>

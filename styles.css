@@ -551,6 +551,26 @@ hr {
 	color: #fff;
 }
 
+.appreciate {
+	background-image: url(./images/istockphoto-1072942800-612x612.jpg); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	height: 700px; 
+	margin-top: -40px;
+}
+
+.thankyou {
+	font-family: 'Rhodium Libre'; 
+	font-style: normal; 
+	font-weight: 400; 
+	font-size: 58px; 
+	line-height: 82px; 
+	text-align: center; 
+	padding-top: 6em;
+	color: rgb(14, 14, 69); 
+	padding-left: 350px;
+}
+
 .col-1 {
 	width: 83.3%;
 }
@@ -862,8 +882,9 @@ hr {
 
 	.hit {
 		width: 100%;
-		margin: 0;
-		text-align: center;
+		margin: 0 auto;
+		margin-left: 50px;
+		
 	}
 
 	.feet {
@@ -1014,5 +1035,21 @@ hr {
 
 	#vertical-line {
 		height: 210px;
+	}
+
+	.appreciate {
+		background-image: url(./images/istockphoto-1072942800-612x612.jpg); 
+		background-repeat: repeat; 
+		background-size: contain; 
+		height: 500px; 
+		margin-top: -40px;
+	}
+
+	.thankyou {
+		font-size: 30px; 
+		line-height: 82px; 
+		text-align: center; 
+		padding-top: 5em;
+		padding-left: 70px;
 	}
 }
