@@ -6,7 +6,7 @@ function payWithPaystack(e) {
   e.preventDefault();
 
     let handler = PaystackPop.setup({ 
-        key: 'pk_test_ae80e3882edee408a43124371eccba14910e4fb7', 
+        key: 'pk_live_1b2dbdf0fd2d7bf7595267433e2b99ea9160352c', 
         email: document.getElementById("email").value,
         amount: document.getElementById("amountv").value * 100,
         fullname: document.getElementById("name").value,
